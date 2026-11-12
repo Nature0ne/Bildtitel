@@ -13,6 +13,7 @@ Bildtitel suggests meaningful filenames from image and screenshot content. Revie
 - Persistent history and safe undo; existing files are not overwritten.
 - Light, dark and system appearance.
 - Menu-bar-only mode with an optional Dock icon.
+- Check for updates in the app, with optional automatic download and installation on quit.
 - No account, subscription or external AI API key.
 
 ## Install
@@ -27,7 +28,9 @@ Bildtitel does not upload your images to an external AI service. Preferences, re
 
 To customize dates, select **Datum davor** (prefix) or **Datum dahinter** (suffix) under **Einstellungen → Namen**, then enter `yy-MM-dd`, `yyyy-MM-dd` or `dd.MM.yyyy` in **Datumsformat**. The preview updates immediately, using your Mac's local time zone.
 
-If folder watching fails, keep Bildtitel running, create a new screenshot and choose **Einstellungen → Diagnose → Diagnose exportieren …**. The JSON export contains technical states, timestamps, counts and error codes; it excludes images, recognized image text, filenames, folder paths and stored access grants. Nothing is uploaded automatically. Version 1.1.1 adds diagnostics; a fix for device-specific watching failures is not yet confirmed.
+If folder watching fails, keep Bildtitel running, create a new screenshot and choose **Einstellungen → Diagnose → Diagnose exportieren …**. The JSON export contains technical states, timestamps, counts and error codes; it excludes images, recognized image text, filenames, folder paths and stored access grants. Nothing is uploaded automatically. Version 1.2.0 adds diagnostics; a fix for device-specific watching failures is not yet confirmed.
+
+Version 1.2.0 also adds [Sparkle](https://sparkle-project.org/) updates. Choose **Nach Updates suchen …** from the app menu, status menu or settings. Automatic checking is enabled by default; automatic downloading and installation on quit is opt-in under **Einstellungen → Updates**. The feed and downloads are signature-verified. Update requests connect to GitHub without sending images, OCR text, diagnostic logs or a system profile. Users on 1.1.0 must install this release manually once to gain the updater.
 
 See the [German guide](README.md) for setup, automatic naming, appearance and menu-bar settings. Report problems or ideas via [Issues](https://github.com/Nature0ne/Bildtitel/issues).
 

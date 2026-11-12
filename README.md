@@ -30,6 +30,7 @@ Screenshots sammeln sich schnell. Bildtitel erkennt ihren Inhalt und schlägt ei
 | **Verlauf & Rückgängig** | Bisherige Namen nachvollziehen und wiederherstellen. Vorhandene Dateien werden nicht überschrieben. |
 | **Hell, Dunkel oder System** | Die Darstellung passt sich deiner Auswahl an. |
 | **Nur in der Menüleiste** | Dock-Symbol ausblenden und Bildtitel über das Statussymbol erreichen. |
+| **Updates direkt in der App** | Neue Versionen suchen oder auf Wunsch automatisch laden und beim Beenden installieren. |
 
 <details>
 <summary><strong>Auch im hellen Design ansehen</strong></summary>
@@ -64,6 +65,14 @@ Unter **Erscheinungsbild** wählst du **System**, **Hell** oder **Dunkel**. Scha
 
 Unter **Einstellungen → Namen** wählst du **Datum davor** oder **Datum dahinter**. Im Feld **Datumsformat** kannst du zum Beispiel `yy-MM-dd` eintragen: Aus dem 12. November 2026 wird dann **26-11-12 Gartenhaus Wochenplan.png**. `dd.MM.yyyy` ergibt **12.11.2026**. Die Vorschau aktualisiert sich sofort; das Datum folgt der lokalen Zeitzone deines Macs.
 
+### Updates ohne erneuten Browser-Download
+
+Ab Version 1.2.0 findest du **Nach Updates suchen …** im Bildtitel-Menü, über das Menüleistensymbol und in den Einstellungen. Die automatische Suche ist standardmäßig aktiv. Unter **Einstellungen → Updates** kannst du zusätzlich **Updates automatisch installieren** einschalten: Neue Versionen werden im Hintergrund geladen und beim Beenden installiert. Ein Neustart wird nicht erzwungen.
+
+Bildtitel verwendet [Sparkle](https://sparkle-project.org/) und prüft die Signaturen des Update-Feeds und der Downloads. Die Suche verbindet sich mit GitHub; Bilder, erkannte Bildtexte und Diagnoseprotokolle werden dabei nicht übertragen. Systemprofiling ist ausgeschaltet.
+
+**Noch Version 1.1.0 installiert?** Lade diese Aktualisierung einmal manuell über GitHub und ersetze die App in Programme. Danach steht die integrierte Updatefunktion zur Verfügung.
+
 ## Apple Intelligence
 
 Bildtitel verwendet das lokale Apple-Intelligence-Modell. Dafür muss Apple Intelligence auf deinem Mac aktiviert und das Modell verfügbar sein. Unter macOS 27 und neuer wird auch der Bildinhalt direkt an das lokale Modell übergeben; unter macOS 26 basiert die Benennung auf erkanntem Text und Bildmerkmalen.
@@ -85,7 +94,7 @@ Die Version wurde unter macOS 27.2.1 geprüft, einschließlich echter Apple-Inte
 
 Erstelle ein [Issue](https://github.com/Nature0ne/Bildtitel/issues) mit deiner macOS-Version und einer kurzen Beschreibung. Ideen für Verbesserungen sind ebenfalls willkommen.
 
-Falls neue Screenshots nicht im Eingang erscheinen: Lass Bildtitel geöffnet, erstelle einen neuen Screenshot und wähle anschließend **Einstellungen → Diagnose → Diagnose exportieren …**. Den Export findest du auch im Menüleistenmenü. Die JSON-Datei enthält technische Zustände, Zeitpunkte, Dateianzahlen und Fehlercodes – keine Bilder, erkannten Bildtexte, Dateinamen, Ordnerpfade oder gespeicherten Zugriffsrechte. Es wird nichts automatisch hochgeladen. Version 1.1.1 ergänzt diese Diagnose; eine Behebung gerätespezifischer Ausfälle ist damit noch nicht bestätigt.
+Falls neue Screenshots nicht im Eingang erscheinen: Lass Bildtitel geöffnet, erstelle einen neuen Screenshot und wähle anschließend **Einstellungen → Diagnose → Diagnose exportieren …**. Den Export findest du auch im Menüleistenmenü. Die JSON-Datei enthält technische Zustände, Zeitpunkte, Dateianzahlen und Fehlercodes – keine Bilder, erkannten Bildtexte, Dateinamen, Ordnerpfade oder gespeicherten Zugriffsrechte. Es wird nichts automatisch hochgeladen. Version 1.2.0 ergänzt diese Diagnose; eine Behebung gerätespezifischer Ausfälle ist damit noch nicht bestätigt.
 
 Dieses Repository enthält die fertigen Downloads, Produktvorschauen und Versionshinweise. Die Vorschauen wurden mit der App-Oberfläche und einem eigens erstellten Beispielbild gerendert.
 

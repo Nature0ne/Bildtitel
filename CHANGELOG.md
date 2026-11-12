@@ -1,6 +1,10 @@
 # Versionshinweise
 
-## 1.1.1 · 12. November 2026
+## 1.2.0 · 12. November 2026
+
+- Integrierte Update-Suche über App-Menü, Menüleiste und Einstellungen.
+- Automatische Suche sowie optionale Hintergrund-Downloads und Installation beim Beenden mit Sparkle.
+- Signierter Update-Feed und signierte Archive über GitHub; kein Systemprofiling und keine Übertragung von Bildern oder Diagnoseprotokollen.
 
 - Datumsformat für Präfix und Suffix selbst einstellen, zum Beispiel `yy-MM-dd` für `26-11-12` oder `dd.MM.yyyy` für `12.11.2026`.
 - Sofortige Vorschau und Datum in der lokalen Zeitzone des Macs; bisherige Einstellungen bleiben erhalten.
