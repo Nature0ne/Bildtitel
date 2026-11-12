@@ -11,7 +11,7 @@
 - Diagnoseexport über Einstellungen und Menüleiste zur Untersuchung von Problemen mit der Ordnerüberwachung.
 - Begrenztes lokales Protokoll mit Scan-Anzahlen, Zeitpunkten, technischen Zuständen und Fehlercodes. Keine Bilder, Bildtexte, Dateinamen, Ordnerpfade oder Bookmarkdaten im Export; keine automatische Übertragung.
 
-27 Tests einschließlich echter Apple Intelligence bestanden. Der gemeldete Überwachungsausfall auf einem weiteren Mac ist noch nicht reproduziert; dieses Update stellt die Diagnose dafür bereit.
+27 Tests einschließlich echter Apple Intelligence bestanden. Manuelle Updateinstallation mit Neustart sowie Hintergrund-Download mit automatischer Installation beim Beenden in einer getrennten Test-App geprüft. Der gemeldete Überwachungsausfall auf einem weiteren Mac ist noch nicht reproduziert; dieses Update stellt die Diagnose dafür bereit.
 
 ## 1.1.0 · 11. November 2026
 

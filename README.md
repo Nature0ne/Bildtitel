@@ -88,7 +88,7 @@ Kein Konto bei Bildtitel. Kein API-Schlüssel. Kein Abo. Bildtitel lädt deine B
 - Für KI-Titel: **Apple Intelligence aktiviert und verfügbar**.
 - Die Benutzeroberfläche ist derzeit **Deutsch**.
 
-Die Version wurde unter macOS 27.2.1 geprüft, einschließlich echter Apple-Intelligence-Aufrufe, Umbenennen, Rückgängig, Ordnerüberwachung sowie heller und dunkler Darstellung. 27 automatisierte Tests bestanden. Ein separater Praxistest unter macOS 26 steht noch aus.
+Die Version wurde unter macOS 27.2.1 geprüft, einschließlich echter Apple-Intelligence-Aufrufe, Umbenennen, Rückgängig, Ordnerüberwachung, heller und dunkler Darstellung sowie manueller Updateinstallation und automatischer Installation beim Beenden. 27 automatisierte Tests bestanden. Ein separater Praxistest unter macOS 26 steht noch aus.
 
 ## Fragen oder einen Fehler gefunden?
 
