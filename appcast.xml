@@ -4,25 +4,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Bildtitel</title>
         <item>
-            <title>1.2.0</title>
-            <pubDate>Thu, 12 Nov 2026 13:57:50 +0100</pubDate>
+            <title>1.3.0</title>
+            <pubDate>Thu, 12 Nov 2026 16:25:08 +0100</pubDate>
             <link>https://github.com/Nature0ne/Bildtitel</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Bildtitel 1.2.0</h2>
-<ul>
-<li>Updates direkt in der App suchen; auf Wunsch automatisch laden und beim Beenden installieren.</li>
-<li>Datumsformat für Präfix oder Suffix selbst einstellen: zum Beispiel yy-MM-dd für 26-11-12.</li>
-<li>Diagnose zur Ordnerüberwachung als JSON exportieren – ohne Bilder, Bildtexte, Dateinamen oder Ordnerpfade.</li>
-</ul>
-<p>Die Ursache des gemeldeten Überwachungsausfalls auf einem weiteren Mac ist noch nicht bestätigt. Der Diagnoseexport hilft bei der Untersuchung.</p>
-]]></description>
-            <enclosure url="https://github.com/Nature0ne/Bildtitel/releases/download/v1.2.0/Bildtitel-1.2.0-macOS-AppleSilicon.zip" length="1609317" type="application/octet-stream" sparkle:edSignature="krcvLNClULkaZOqvJ98bJE8xJ9otiRppm55ycrnRXNI+CWrDoN+6vbEpcxHY7ypYheZNj32B4665/X8Y87ZyDQ=="></enclosure>
+            <description><![CDATA[<!doctype html><html lang="de"><meta charset="utf-8"><title>Bildtitel 1.3.0</title><body><h1>Bildtitel 1.3.0</h1><pre style="white-space:pre-wrap;font-family:system-ui">Bildtitel bekommt mehr Überblick und spricht jetzt auch Englisch und Niederländisch. Die Sprache richtet sich nach deinen macOS-Einstellungen; KI-Vorschläge berücksichtigen die gewählte Sprache.
+
+- **Eingang bleibt erhalten:** Vorschläge und bearbeitete Titel stehen nach einem Neustart wieder bereit. Wiederhergestellte Einträge werden nicht automatisch umbenannt.
+- **Ordnerüberwachung mit Rückmeldung:** Aktiv, Vorbereitung, Pause und Fehler sind sichtbar. Dazu kommen der letzte erfolgreiche Scan, „Jetzt prüfen“ und automatische Wiederholungsversuche bei vorübergehenden Fehlern.
+- **Namensprofile:** Einstellungen für verschiedene Aufgaben speichern, anwenden, aktualisieren und löschen.
+- **Stapel mit Vorschau:** Mehrere Bilder auswählen, die vorgesehenen Dateinamen prüfen und danach das Ergebnis pro Datei sehen. Suchfilter und Auswahl bestimmen den Umfang.
+- **Verlauf durchsuchen:** Nach Dateinamen, Zeitraum, Methode und Status filtern.
+- **Zwischenablage:** Ein kopiertes Bild mit ⌘V importieren und den Speicherort selbst wählen. Bestehende Dateien werden nicht überschrieben.
+- **Duplikate erkennen:** Bytegleiche Bilder unter verschiedenen Pfaden werden markiert und nicht automatisch erneut verarbeitet. Es wird nichts automatisch gelöscht.
+- **Bessere Lesbarkeit:** Überarbeitete Kontraste, größere Bedienelemente und flexiblere Layouts für längere Übersetzungen.
+
+Dark Mode, der Betrieb nur in der Menüleiste, lokale KI, OCR, anpassbare Datumspräfixe, Rückgängig und signierte Updates bleiben dabei.
+
+**Voraussetzungen:** Mac mit Apple Silicon, macOS 26 oder neuer. Für die lokale KI muss Apple Intelligence verfügbar und aktiviert sein; sonst verwendet Bildtitel die Texterkennung.
+
+**Hinweis zur gemeldeten Mac-mini-Störung:** Wiederaufnahme und Fehlerzustände wurden lokal getestet. Die konkrete Ursache auf dem betroffenen Mac mini ist ohne dessen Diagnoseexport nicht bestätigt.
+
+**Vor dem Update aus 1.1/1.2:** Offene Vorschläge zuerst abschließen. Diese älteren Versionen speichern den Eingang noch nicht; die neue Wiederherstellung greift ab 1.3.0. Einstellungen und Verlauf bleiben erhalten.
+</pre></body></html>]]></description>
+            <enclosure url="https://github.com/Nature0ne/Bildtitel/releases/download/v1.3.0/Bildtitel-1.3.0-macOS-AppleSilicon.zip" length="1916096" type="application/octet-stream" sparkle:edSignature="S0drl87oup3y7IAy28QujkKezfiepM5fXd2i5S+TubOimterAZNPeLGbok8Q2Lo996xaBTdQfJBE5Jwyvf9rBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +Z4XW3JMLt/SOQ8nILj8P+JQ5WrV8fYrPRDg/nv0IURYJQOq2jbrCdWLwLZaFOkh0do6VPyl/ZshyDjvfHnqBA==
-length: 1773
+edSignature: w65H6hHAh3oUT+S+aN6B0/OfxhdikrPfgA2BS6rXDKuVaqjLKVlnxgztmHqfOFjznj0XOhrjSkeTOaasaotGDA==
+length: 3611
 -->
