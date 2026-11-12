@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Bildtitel</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Thu, 12 Nov 2026 13:57:50 +0100</pubDate>
+            <link>https://github.com/Nature0ne/Bildtitel</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Bildtitel 1.2.0</h2>
+<ul>
+<li>Updates direkt in der App suchen; auf Wunsch automatisch laden und beim Beenden installieren.</li>
+<li>Datumsformat für Präfix oder Suffix selbst einstellen: zum Beispiel yy-MM-dd für 26-11-12.</li>
+<li>Diagnose zur Ordnerüberwachung als JSON exportieren – ohne Bilder, Bildtexte, Dateinamen oder Ordnerpfade.</li>
+</ul>
+<p>Die Ursache des gemeldeten Überwachungsausfalls auf einem weiteren Mac ist noch nicht bestätigt. Der Diagnoseexport hilft bei der Untersuchung.</p>
+]]></description>
+            <enclosure url="https://github.com/Nature0ne/Bildtitel/releases/download/v1.2.0/Bildtitel-1.2.0-macOS-AppleSilicon.zip" length="1609317" type="application/octet-stream" sparkle:edSignature="krcvLNClULkaZOqvJ98bJE8xJ9otiRppm55ycrnRXNI+CWrDoN+6vbEpcxHY7ypYheZNj32B4665/X8Y87ZyDQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: +Z4XW3JMLt/SOQ8nILj8P+JQ5WrV8fYrPRDg/nv0IURYJQOq2jbrCdWLwLZaFOkh0do6VPyl/ZshyDjvfHnqBA==
+length: 1773
+-->

@@ -1,0 +1,2 @@
+# Signed update metadata must retain its exact bytes.
+appcast.xml -text
