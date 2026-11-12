@@ -24,7 +24,7 @@ Screenshots sammeln sich schnell. Bildtitel erkennt ihren Inhalt und schlägt ei
 |---|---|
 | **Lokale KI** | Apple Intelligence formuliert aussagekräftige Titel auf deinem Mac. |
 | **Vorschau vor dem Benennen** | Bild, alter Name und neuer Titel stehen direkt nebeneinander. |
-| **Dein Namensstil** | Kurze oder ausführliche Titel, natürliche Schreibweise, Bindestriche, Unterstriche und optionales Datum. |
+| **Dein Namensstil** | Kurze oder ausführliche Titel, natürliche Schreibweise, Bindestriche, Unterstriche und ein Datum in deinem Format. |
 | **Ordnerüberwachung** | Neue Screenshots erscheinen im Eingang oder werden auf Wunsch sofort benannt. |
 | **Mehrere Bilder auf einmal** | Bilder per Drag & Drop hinzufügen oder einen vorhandenen Ordner vorbereiten. |
 | **Verlauf & Rückgängig** | Bisherige Namen nachvollziehen und wiederherstellen. Vorhandene Dateien werden nicht überschrieben. |
@@ -60,13 +60,17 @@ Wähle unter **Einstellungen → Screenshot-Ordner** den Ordner, in dem macOS de
 
 Unter **Erscheinungsbild** wählst du **System**, **Hell** oder **Dunkel**. Schalte **Im Dock anzeigen** aus, wenn Bildtitel nur als Statussymbol erscheinen soll. Das Fenster öffnest du über **Bildtitel öffnen** oder **Einstellungen …** im Menüleistenmenü. Beim Schließen des Fensters läuft die App weiter.
 
+### Dein Datumsformat
+
+Unter **Einstellungen → Namen** wählst du **Datum davor** oder **Datum dahinter**. Im Feld **Datumsformat** kannst du zum Beispiel `yy-MM-dd` eintragen: Aus dem 12. November 2026 wird dann **26-11-12 Gartenhaus Wochenplan.png**. `dd.MM.yyyy` ergibt **12.11.2026**. Die Vorschau aktualisiert sich sofort; das Datum folgt der lokalen Zeitzone deines Macs.
+
 ## Apple Intelligence
 
 Bildtitel verwendet das lokale Apple-Intelligence-Modell. Dafür muss Apple Intelligence auf deinem Mac aktiviert und das Modell verfügbar sein. Unter macOS 27 und neuer wird auch der Bildinhalt direkt an das lokale Modell übergeben; unter macOS 26 basiert die Benennung auf erkanntem Text und Bildmerkmalen.
 
 Ist die KI nicht verfügbar oder kann sie ein Bild nicht benennen, verwendet Bildtitel lokale Texterkennung. **Welche Methode tatsächlich verwendet wurde, steht in der Vorschau und im Verlauf.** Ein KI-Fehler wird als Rückfall auf Texterkennung kenntlich gemacht.
 
-Kein Konto bei Bildtitel. Kein API-Schlüssel. Kein Abo. Bildtitel lädt deine Bilder nicht zu einem externen KI-Dienst hoch. Einstellungen und Verlauf werden lokal auf dem Mac gespeichert.
+Kein Konto bei Bildtitel. Kein API-Schlüssel. Kein Abo. Bildtitel lädt deine Bilder nicht zu einem externen KI-Dienst hoch. Einstellungen, Verlauf und ein begrenztes technisches Diagnoseprotokoll werden lokal auf dem Mac gespeichert.
 
 ## Voraussetzungen
 
@@ -75,11 +79,13 @@ Kein Konto bei Bildtitel. Kein API-Schlüssel. Kein Abo. Bildtitel lädt deine B
 - Für KI-Titel: **Apple Intelligence aktiviert und verfügbar**.
 - Die Benutzeroberfläche ist derzeit **Deutsch**.
 
-Die Version wurde unter macOS 27.2.1 geprüft, einschließlich echter Apple-Intelligence-Aufrufe, Umbenennen, Rückgängig, Ordnerüberwachung sowie heller und dunkler Darstellung. 21 automatisierte Tests bestanden. Ein separater Praxistest unter macOS 26 steht noch aus.
+Die Version wurde unter macOS 27.2.1 geprüft, einschließlich echter Apple-Intelligence-Aufrufe, Umbenennen, Rückgängig, Ordnerüberwachung sowie heller und dunkler Darstellung. 27 automatisierte Tests bestanden. Ein separater Praxistest unter macOS 26 steht noch aus.
 
 ## Fragen oder einen Fehler gefunden?
 
 Erstelle ein [Issue](https://github.com/Nature0ne/Bildtitel/issues) mit deiner macOS-Version und einer kurzen Beschreibung. Ideen für Verbesserungen sind ebenfalls willkommen.
+
+Falls neue Screenshots nicht im Eingang erscheinen: Lass Bildtitel geöffnet, erstelle einen neuen Screenshot und wähle anschließend **Einstellungen → Diagnose → Diagnose exportieren …**. Den Export findest du auch im Menüleistenmenü. Die JSON-Datei enthält technische Zustände, Zeitpunkte, Dateianzahlen und Fehlercodes – keine Bilder, erkannten Bildtexte, Dateinamen, Ordnerpfade oder gespeicherten Zugriffsrechte. Es wird nichts automatisch hochgeladen. Version 1.1.1 ergänzt diese Diagnose; eine Behebung gerätespezifischer Ausfälle ist damit noch nicht bestätigt.
 
 Dieses Repository enthält die fertigen Downloads, Produktvorschauen und Versionshinweise. Die Vorschauen wurden mit der App-Oberfläche und einem eigens erstellten Beispielbild gerendert.
 
